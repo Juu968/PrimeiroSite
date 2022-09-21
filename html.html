@@ -1,15 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css"href="css.css">
-    <title>SiteNoVs</title>
+  <title>Site da escola</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style (11).css">
+
 </head>
+
 <body>
-    <h1>VisualStudioCode</h1>
-    <p>Visual Studio Code é um editor de código simplificado com suporte para operações de desenvolvimento como depuração, execução de tarefas, e controlo de versões. O seu objectivo é fornecer apenas as ferramentas de que um programador necessita para um ciclo rápido de depuração de código e deixa fluxos de trabalho mais complexos para IDEs mais completos, tais como Visual Studio IDE.</p>
-    <img src = "https://yt3.ggpht.com/_q52i8bUAEvcb7JR4e-eNTv23y2A_wg5sCz0NC0GrGtcw1CRMWJSOPVHUDh_bngD0q4gMvVeoA=s900-c-k-c0x00ffffff-no-rj">
+
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Coloque o nome da escola que você deseja fazer o site -->
+
+      <a class="navbar-brand" href="#">Colegio santa amalia</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#vidaNoCampus">Vida no campus</a></li>
+        <li><a href="#conquistas">Conquistas</a></li>
+
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- Link do vídeo na escola no youtube-->
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/fupCZqs0aB8" title="Colégio Santa Amália, 90 anos | Profª Barbara Menezes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <div class="container">
+
+    <h2 class="page-header" id="vidaNoCampus">Vida no campus</h2>
+
+    <center>
+      <div class="viagem_mainDiv">
+        <!--Coloque uma imagem que represente a vida no campus da escola-->
+        <img src="unknown.png">
+
+        <h4 class="text-capitalize"><kbd>Salão da escola</kbd></h4>
+
+        <hr >
+        <!-- Ajuste a linha 62 e 63 com as informações pedidas-->
+      <h5 class="text-success  text-capitalize" >A escola foi fundada em 1932</h5>
+      <p class="text-muted " >O Colégio Santa Amália oferece toda a estrutura necessária para o conforto e desenvolvimento educacional dos seus alunos, como por exemplo: Banda Larga, Parque Infantil, Refeitório, Biblioteca, Quadra Esportiva, Quadra Esportiva Coberta, Laboratório de Ciência, Laboratório de Informática, Sala de Leitura, Auditório, Pátio Coberto, Pátio Descoberto, Sala do Professor e Internet.</p>
+      </div>
+    </center>
+
+    <br><br>
+
+    <center>
+      <div class="viagem_mainDiv">
+
+        <!-- Coloque a foto da biblioteca da escola-->
+        <img src="aaa.png">
+
+        <h4 class="text-capitalize"><kbd>Biblioteca da escola</kbd></h4>
+      <hr >
+      <!-- Ajuste a linha 78 e 79 com as informações pedidas-->
+      <h5 class="text-success text-capitalize" >foi fundada em 1980</h5>
+      <p class="text-muted" >Veja abaixo como foi o desempenho do Colégio Santa Amália no ENEM 2019, comparado ao desempenho das demais escolas da cidade e do Brasil: Média geral da escola no ENEM: 619.77</p>
+ 
+      </div>
+    </center>
+    <br><br>
+    <center>
+        <div  class="viagem_mainDiv">
+          <!--Coloque a imagem do auditório da imagem--> 
+          <img src="aa.png">
+          <h4 class="text-capitalize"><kbd>Auditório da escola</kbd></h4>
+          <hr >
+
+           <!-- Ajuste a linha 92 e 93 com as informações pedidas-->
+          <h5 class="text-success text-capitalize" >Foi fundado 1982</h5>
+          <p class="text-muted" >É era um lugar historico mas infelizmente mudou e continuou sendo uma escola</p>
+        </div>
+    </center>
+
+
+    <h2 class="page-header" id="conquistas">Conquistas da escola</h2>
+ <!-- Escreva alguma conquista importante da escola-->
+    <div class="bg-primary filme_head" data-toggle="collapse" data-target="#conquistasDaEscola1">
+     Ela promoveu ativação no dia das crianças <i class="fa fa-sort-desc"></i>
+    </div>
+
+    <div id="conquistasDaEscola1" class="collapse">
+
+      <div class="conquistas_text">
+         <!-- Coloque a imagem da conquista-->
+        <img src="a.png" class="img-responsive img-thumbnail">
+        <h5 class="text-success text-capitalize"> Foi um evento
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+        </h5>
+        <p>Foi um evento sobre as crianças e etc</p>
+      </div>
+
+    </div>
+
+    
 </body>
+
 </html>
